@@ -1,4 +1,4 @@
-package com.martins.cursospring.model;
+package com.martins.cursospring.models;
 
 import java.io.Serializable;
 import java.util.Objects;
