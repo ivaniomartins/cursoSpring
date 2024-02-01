@@ -1,5 +1,6 @@
 package com.martins.cursospring.services;
 
+import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,6 +21,12 @@ public class CategoriaService {
     	 return obj.orElse(null);
     	 
      }
+     
+ 	public Iterable<Categoria> buscarTodos(){
+		
+ 		return repository.findAll();
+ 			
+ 		}
 	
 	
 }
